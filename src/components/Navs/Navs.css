@@ -1,0 +1,11 @@
+.Navs {
+	justify-content: space-around;
+}
+
+.Navs .links:before {
+	background-color: #3B3B98;
+}
+
+.Navs .links:hover {
+	color: #3B3B98;
+}

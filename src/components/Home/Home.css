@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+
+.Home-bg {
+	background: #171E2C;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #171E2C, #1B2333);   Chrome 10-25, Safari 5.1-6 
+	background: linear-gradient(to left, #171E2C, #1B2333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Home {
+	align-items: center;
+	height: 100vh;
+}
+
+#moon {
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	background-image: -webkit-radial-gradient(0px 0px, 12px 10px, transparent 100px, #FEFCD7 112px);
+	background-image: -webkit-radial-gradient(0px 0px, 12px 10px, transparent 100px, #FEFCD7 112px);
+	background-image: -moz-radial-gradient(0px 0px, 12px 10px, transparent 100px, #FEFCD7 112px);
+	background-image: -o-radial-gradient(0px 0px, 12px 10px, transparent 100px, #FEFCD7 112px);
+	position: absolute;
+}
+
+.tagline {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+ .enclosed .hvr-shutter-in-horizontal {
+	border-radius: 20px;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.enclosed .hvr-shutter-in-horizontal:hover {
+	color: white;
+	background-color: #171E2C;
+}
+
+.enclosed .hvr-shutter-in-horizontal:before {
+	/*background-color: transparent;*/
+	border-radius: 20px;
+}
